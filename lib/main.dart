@@ -24,29 +24,25 @@ class InnovationTeamDeviceApp extends StatelessWidget {
 class TeamDeviceHomePage extends StatelessWidget {
   const TeamDeviceHomePage({super.key});
 
-  static const String groupName = '2026春.第三组 创新实验团队 ';
-  static const String projectTitle = ' ·第15周创新实验 Flutter Android 真机验收看板';
-  static const String projectSlogan = '使用GitHub团队 Fork 协作，真机升级并运行第14周个人Hello World，展示第15周创新实验小组成果 ';
+  static const String groupName = '第3组 创新实验团队';
+  static const String projectTitle = 'Flutter Android 真机验收看板';
+  static const String projectSlogan = '用 GitHub 协作，把第14周个人 Hello World 升级成小组真机运行成果';
 
   static const List<TeamMember> members = [
-    TeamMember(role: '组长', name: '请填写组长姓名', task: '创建原始仓库、维护 main、审核 PR、组织真机运行与证据提交'),
-    TeamMember(role: '组员 A', name: '请填写姓名', task: '修改 groupName、projectTitle、projectSlogan'),
-    TeamMember(role: '组员 B', name: '请填写姓名', task: '补全 members 中的成员姓名与分工'),
-    TeamMember(role: '组员 C', name: '请填写姓名', task: '补充 realDeviceChecks 中的真机运行检查项'),
-    TeamMember(role: '组员 D', name: '请填写姓名', task: '补充 evidenceRules，并把真机照片加入 README'),
+    TeamMember(role: '组长', name: '曲冠衡', task: '创建仓库、维护main、审核PR、组织真机运行'),
+    TeamMember(role: '组员 A', name: '邱靖翔', task: '修改 groupName、 projectTitle、projectSlogan'),
+    TeamMember(role: '组员 B', name: '陈昊阳', task: '补全 members 中的成员姓名与分工'),
+    TeamMember(role: '组员 C', name: '陈荣坤', task: '补充realDevicechecks中的真机检查项'),
+    TeamMember(role: '组员 D', name: '姜凡', task: '补充 evidenceRules，并把真机照片加入 README'),
+    TeamMember(role: '组员 E', name: '周文斌', task: '定期备份仓库和分支，辅助审核PR'),
   ];
 
   static const List<String> realDeviceChecks = [
     '主电脑能执行 flutter doctor，并识别 Android toolchain',
     'Android 手机已打开开发者选项和 USB 调试',
-    '使用符合规格的 USB 数据线连接电脑与 Android 手机，确认非仅充电线',
-    '手机 USB 连接模式已切换为文件传输（MTP）或仅充电以外的模式',
-    'adb devices 显示设备状态为 device，而不是 unauthorized 或 offline',
-    '若显示 unauthorized：解锁手机并点击允许 USB 调试，勾选始终允许，重新插拔数据线',
-    'flutter devices 能看到真实 Android 设备（非模拟器）',
-    'flutter run 成功后手机屏幕显示本小组修改后的 App 页面',
-    '运行设备型号已记录：设备名称、Android 版本、屏幕分辨率',
-    '已执行 flutter test 确认本地单元测试全部通过',
+    'adb devices 显示设备状态为 device，而不是 unauthorized',
+    'flutter devices 能看到真实 Android 设备',
+    'flutter run 后手机屏幕显示本小组修改后的页面',
   ];
 
   static const List<String> evidenceRules = [
