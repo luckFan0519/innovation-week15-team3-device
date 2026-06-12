@@ -34,7 +34,7 @@ class TeamDeviceHomePage extends StatelessWidget {
     TeamMember(role: '组员 B', name: '陈昊阳', task: '补全 members 中的成员姓名与分工'),
     TeamMember(role: '组员 C', name: '陈荣坤', task: '补充realDevicechecks中的真机检查项'),
     TeamMember(role: '组员 D', name: '姜凡', task: '补充 evidenceRules，并把真机照片加入 README'),
-    TeamMember(role: '组员 E', name: '周文斌', task: '定期备份仓库和分支，辅助审核PR'),
+    TeamMember(role: '组员 E', name: '周文宾', task: '定期备份仓库和分支，辅助审核PR'),
   ];
 
   static const List<String> realDeviceChecks = [
