@@ -45,6 +45,7 @@
 | 组员 B | `lib/main.dart` | 补全 `members` 中的小组成员姓名与分工 |
 | 组员 C | `lib/main.dart` | 补充 `realDeviceChecks` 中的真机检查项 |
 | 组员 D | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明 |
+| 组员 E | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR |
 
 ## 运行命令
 

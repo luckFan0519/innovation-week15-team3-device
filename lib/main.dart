@@ -24,9 +24,9 @@ class InnovationTeamDeviceApp extends StatelessWidget {
 class TeamDeviceHomePage extends StatelessWidget {
   const TeamDeviceHomePage({super.key});
 
-  static const String groupName = '第X组 创新实验团队';
-  static const String projectTitle = 'Flutter Android 真机验收看板';
-  static const String projectSlogan = '用 GitHub 协作，把第14周个人 Hello World 升级成小组真机运行成果';
+  static const String groupName = '2026春.第三组 创新实验团队 ';
+  static const String projectTitle = ' ·第15周创新实验 Flutter Android 真机验收看板';
+  static const String projectSlogan = '使用GitHub团队 Fork 协作，真机升级并运行第14周个人Hello World，展示第15周创新实验小组成果 ';
 
   static const List<TeamMember> members = [
     TeamMember(role: '组长', name: '请填写组长姓名', task: '创建原始仓库、维护 main、审核 PR、组织真机运行与证据提交'),
