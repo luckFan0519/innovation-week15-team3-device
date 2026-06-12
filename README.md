@@ -40,12 +40,12 @@
 
 | 角色 | 修改位置 | 任务 |
 | --- | --- | --- |
-| 组长 | GitHub 仓库 | 创建仓库、维护 `main`、审核 PR、组织真机运行 |
-| 组员 A | `lib/main.dart` | 修改 `groupName`、`projectTitle`、`projectSlogan` |
-| 组员 B | `lib/main.dart` | 补全 `members` 中的小组成员姓名与分工 |
-| 组员 C | `lib/main.dart` | 补充 `realDeviceChecks` 中的真机检查项 |
-| 组员 D | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明 |
-| 组员 E | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR |
+| 曲冠衡（本次实验代理组长） | GitHub 仓库 | 创建仓库、维护 `main`、审核 PR、组织真机运行 |
+| 邱靖翔 | `lib/main.dart` | 修改 `groupName`、`projectTitle`、`projectSlogan` |
+| 陈昊阳 | `lib/main.dart` | 补全 `members` 中的小组成员姓名与分工 |
+| 陈荣坤 | `lib/main.dart` | 补充 `realDeviceChecks` 中的真机检查项 |
+| 姜凡 | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明 |
+| 周文斌 | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR |
 
 ## 运行命令
 
