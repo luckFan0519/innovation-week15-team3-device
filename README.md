@@ -36,16 +36,16 @@
 
 组员不要直接 push 到组长仓库的 `main` 分支。
 
-## 小组分工建议
+## 小组分工
 
-| 角色 | 修改位置 | 任务 |
-| --- | --- | --- |
-| 曲冠衡（本次实验代理组长） | GitHub 仓库 | 创建仓库、维护 `main`、审核 PR、组织真机运行 |
-| 邱靖翔 | `lib/main.dart` | 修改 `groupName`、`projectTitle`、`projectSlogan` |
-| 陈昊阳 | `lib/main.dart` | 补全 `members` 中的小组成员姓名与分工 |
-| 陈荣坤 | `lib/main.dart` | 补充 `realDeviceChecks` 中的真机检查项 |
-| 姜凡 | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明 |
-| 周文斌 | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR |
+| 角色            | 修改位置                          | 任务                                            |
+| ------------- | ----------------------------- | --------------------------------------------- |
+| 曲冠衡（本次实验代理组长） | GitHub 仓库                     | 创建仓库、维护 `main`、审核 PR、组织真机运行                   |
+| 邱靖翔           | `lib/main.dart`               | 修改 `groupName`、`projectTitle`、`projectSlogan` |
+| 陈昊阳           | `lib/main.dart`               | 补全 `members` 中的小组成员姓名与分工                      |
+| 陈荣坤           | `lib/main.dart`               | 补充 `realDeviceChecks` 中的真机检查项                 |
+| 姜凡            | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明                   |
+| 周文斌           | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR                              |
 
 ## 运行命令
 
@@ -97,23 +97,12 @@ images/android-real-device.jpg
 并在本 README 中引用：
 
 ```markdown
-![Android 真机运行照片](https://github.com/luckFan0519/innovation-week15-team3-device/blob/main/images/android-real-device.jpg?raw=true)
+![Android 真机运行照片](images/android-real-device.jpg?raw=true)
 ```
 
-合格照片必须满足：
-
-- 真实 Android 手机正在运行本小组 Flutter 应用；
-- 不能是 Web 截图；
-- 不能是 Android 模拟器截图；
-- 不能用手机本机截图代替；
-- 必须由第二部手机拍摄；
-- 照片中能看到手持手机；
-- 不包含聊天记录、手机号、定位等隐私信息。
 
 ## 本组真机运行照片
 
-提交照片后，下面应显示本组运行效果：
 
 ![Android 真机运行照片](images/android-real-device.jpg)
 
-如果图片暂时无法显示，请检查 `images/android-real-device.jpg` 是否已提交，以及文件名大小写是否一致。
