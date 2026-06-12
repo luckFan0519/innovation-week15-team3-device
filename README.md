@@ -1,18 +1,34 @@
 # 创新实验第15周：团队协作与 Android 真机运行示例
 
-本项目用于第15周课堂任务：在第14周 Flutter Hello World 和 GitHub 提交练习的基础上，小组通过 Pull Request 协作修改同一个 Flutter 项目，并把最终版本运行到真实 Android 手机上。
+本项目用于第15周课堂任务：在第14周 Flutter Hello World 和 GitHub 提交练习的基础上，本小组通过 Pull Request 协作修改同一个 Flutter 项目，并把最终版本运行到真实 Android 手机上。
 
-## 最终要提交什么
+<br />
 
-每组需要提交：
+## 小组成员
 
-1. GitHub 原始仓库链接。
-2. 4 名组员的 Fork、分支、commit 或 Pull Request 证据。
-3. 组长合并 PR 后的最终 `main` 分支截图。
-4. 真实 Android 手机运行本应用的照片。
-5. README 中展示真机照片和小组分工。
+- 曲冠衡（本次实验代理组长）
+- 邱靖翔
+- 陈昊阳
+- 陈荣坤
+- 姜凡
+- 周文斌
 
-## 推荐协作方式
+## 项目结构
+
+```
+innovation-week15-team3-device/
+├── lib/
+│   └── main.dart              # Flutter 主程序文件
+├── images/
+│   └── android-real-device.jpg # 真机运行照片
+├── test/
+│   └── widget_test.dart       # 组件测试文件
+├── android/                   # Android 平台配置
+├── pubspec.yaml               # 项目依赖配置
+└── README.md                  # 项目说明文档
+```
+
+## 协作方式
 
 本周统一使用 Fork + Pull Request：
 
@@ -34,7 +50,7 @@
 主电脑运行合并后的最终版本
 ```
 
-组员不要直接 push 到组长仓库的 `main` 分支。
+<br />
 
 ## 小组分工
 
@@ -47,7 +63,11 @@
 | 姜凡            | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明                   |
 | 周文斌           | `lib/main.dart` 和 `README.md` | 定期备份仓库和分支，辅助审核PR                              |
 
-## 运行命令
+<br />
+
+## 实验过程
+
+##### 运行命令
 
 进入项目根目录后执行：
 
@@ -69,7 +89,7 @@ flutter devices
 flutter run -d 设备ID
 ```
 
-## Android 真机检查
+##### Android 真机检查
 
 连接手机后先检查：
 
@@ -78,31 +98,14 @@ adb devices
 flutter devices
 ```
 
-`adb devices` 的状态应为：
+`adb devices` 的状态为：
 
 ```text
 device
 ```
 
-如果显示 `unauthorized`，请解锁手机并允许 USB 调试。
-
-## 真机照片要求
-
-请把照片放到：
-
-```text
-images/android-real-device.jpg
-```
-
-并在本 README 中引用：
-
-```markdown
-![Android 真机运行照片](images/android-real-device.jpg?raw=true)
-```
-
+<br />
 
 ## 本组真机运行照片
 
-
 ![Android 真机运行照片](images/android-real-device.jpg)
-
