@@ -108,4 +108,5 @@ device
 
 ## 本组真机运行照片
 
-![Android 真机运行照片](images/android-real-device.jpg)
+![Android 真机运行照片1](images/android-real-device1.jpg)
+![Android 真机运行照片2](images/android-real-device2.jpg)
