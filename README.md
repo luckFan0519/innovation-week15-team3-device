@@ -77,13 +77,13 @@ flutter test
 flutter run
 ```
 
-如果电脑连接了多台设备，先查看设备：
+查看设备：
 
 ```bash
 flutter devices
 ```
 
-再指定真实 Android 手机运行：
+指定真实 Android 手机运行：
 
 ```bash
 flutter run -d 设备ID
