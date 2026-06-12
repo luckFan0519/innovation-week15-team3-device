@@ -97,7 +97,7 @@ images/android-real-device.jpg
 并在本 README 中引用：
 
 ```markdown
-![Android 真机运行照片](images/android-real-device.jpg)
+![Android 真机运行照片](https://github.com/luckFan0519/innovation-week15-team3-device/blob/main/images/android-real-device.jpg?raw=true)
 ```
 
 合格照片必须满足：
